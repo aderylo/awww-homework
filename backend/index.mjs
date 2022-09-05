@@ -124,11 +124,11 @@ get_db_postgres().then((db) => {
   );
 
   app.use((err, req, res) => {
-    res.render("error", { error: err });
+    res.status(400).send({ error: err });
   });
 
   app.use((err, req, res, next) => {
-    res.render("error", { error: "Nie znaleziono strony o podanym adresie!" });
+    res.status(400).send({ error: "Nie znaleziono strony o podanym adresie!" });
   });
 
   app.listen(port, () => {
