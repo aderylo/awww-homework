@@ -75,38 +75,40 @@ function Main() {
 
     return (
       <main>
-        <div id="trips">{trips}</div>
-        <aside>
-          <section id="promos">
-            <h2>Promocje</h2>
-            <article className="promo">
-              <h3>Góry wysokie</h3>
-              <span className="trip-date">1-31 lutego</span>
-              <a href="book/2">Rezerwuj</a>
-            </article>
-            <article className="promo">
-              <h3>Inne miejsce</h3>
-              <span className="trip-date">17-18 kwietnia</span>
-              <a href="book/1">Rezerwuj</a>
-            </article>
-            <article className="promo">
-              <h3>Też gdzieś</h3>
-              <span className="trip-date">w listopadzie</span>
-              <a href="book/1">Rezerwuj</a>
-            </article>
-            <article className="promo">
-              <h3>Warszawa</h3>
-              <span className="trip-date">ciągle</span>
-              <a href="book/1">Rezerwuj</a>
-            </article>
-          </section>
-          <section id="advices">
-            <h2>Porady</h2>
-            <a href="/">Co zabrać na wycieczkę?</a>
-            <a href="/">Kiedy najlepiej wyjechać?</a>
-            <a href="/">Jakie buty są najwygodniejsze?</a>
-          </section>
-        </aside>
+        <div className="main_page">
+          <div id="trips">{trips}</div>
+          <aside>
+            <section id="promos">
+              <h2>Promocje</h2>
+              <article className="promo">
+                <h3>Góry wysokie</h3>
+                <span className="trip-date">1-31 lutego</span>
+                <a href="book/2">Rezerwuj</a>
+              </article>
+              <article className="promo">
+                <h3>Inne miejsce</h3>
+                <span className="trip-date">17-18 kwietnia</span>
+                <a href="book/1">Rezerwuj</a>
+              </article>
+              <article className="promo">
+                <h3>Też gdzieś</h3>
+                <span className="trip-date">w listopadzie</span>
+                <a href="book/1">Rezerwuj</a>
+              </article>
+              <article className="promo">
+                <h3>Warszawa</h3>
+                <span className="trip-date">ciągle</span>
+                <a href="book/1">Rezerwuj</a>
+              </article>
+            </section>
+            <section id="advices">
+              <h2>Porady</h2>
+              <a href="/">Co zabrać na wycieczkę?</a>
+              <a href="/">Kiedy najlepiej wyjechać?</a>
+              <a href="/">Jakie buty są najwygodniejsze?</a>
+            </section>
+          </aside>
+        </div>
       </main>
     );
   }

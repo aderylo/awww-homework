@@ -6,25 +6,6 @@ import Trip from "./components/Trip";
 import Error from "./components/Error";
 import Book from "./components/Book";
 
-const trips_details = [
-  {
-    id: 1,
-    obrazek: "lol",
-    obrazek_tekst: "lol",
-    nazwa: "lol",
-    opis: "hehe lol",
-    cena: 100,
-  },
-  {
-    id: 1,
-    obrazek: "lol",
-    obrazek_tekst: "lol",
-    nazwa: "lol",
-    opis: "hehe lol",
-    cena: 100,
-  },
-];
-
 function App() {
   return (
     <BrowserRouter>
